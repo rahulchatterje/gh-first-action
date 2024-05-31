@@ -5,7 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Greeting
-        run: echo "Hello World!"
+        run: |
+          echo "Hello World!"
+          echo "Second Command"
+          echo "Third Command"
       - name: Bye
-        run: echo "Bye"
+        run: 
+          echo "Bye"
   
